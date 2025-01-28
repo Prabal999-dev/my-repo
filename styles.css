@@ -1,0 +1,260 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    display: flex;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #000000;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color:#d8d25c; /* Purple logo color */
+  }
+  
+  .search-bar input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #d8d25c;
+    font-size: 14px;
+  }
+  
+  .category-nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #f4ebbfb1;
+    border-top: 1px solid #ddd;
+  }
+  
+  .category-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  .category-nav a:hover {
+    text-decoration: underline;
+  }
+
+  .city-section {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.city-section span {
+    padding: 5px 10px;
+    background-color: #d8d25c;
+    border-radius: 3px;
+}
+
+.hero-section {
+    background-image: url(BG.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-msg {
+    background-color: #fff;
+    color: #000;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.hero-btn-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hero-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.map-section {
+    margin: 20px 0;
+}
+
+.chart-section {
+  color: #fff;
+  background-color: #000000;
+    margin: 20px 0;
+}
+
+.data-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.data-cell {
+    background-color: #d8d25c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #ffffff;
+    text-align: center;
+    width: 30%;
+}
+
+.data-cell h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.data-cell p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+.shopping-cart {
+  max-width: 800px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.deselect-link {
+  color: #0073e6;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: flex-start;
+  border-top: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+.item-image img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.item-details {
+  flex: 1;
+}
+
+.item-details h3 {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+.stock-info {
+  color: red;
+}
+
+.fulfilled {
+  display: inline-block;
+  background-color: #e7f3fe;
+  color: #0073e6;
+  font-size: 12px;
+  padding: 2px 5px;
+  margin: 5px 0;
+  border-radius: 3px;
+}
+
+.gift-option {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.item-price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.item-actions {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity button {
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.quantity input {
+  width: 30px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 5px;
+}
+
+.cart-subtotal {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+  
+footer.footer-panel {
+  background-color: #000000; /* Dark navy blue */
+  color: #ffffff; /* Light black/navy blue text */
+  text-align: center;
+  padding: 10px; /* Reduced padding for smaller size */
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 12px; /* Smaller font size */
+}
+
+footer p {
+  margin: 2px 0; /* Reduced margin for compact spacing */
+}
