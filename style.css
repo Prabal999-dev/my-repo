@@ -1,0 +1,124 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background: #000; /* Black background */
+    color: #d4ff00; /* Neon yellow-green text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #222; /* Dark gray background */
+    border: 2px solid #d4ff00; /* Neon border */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 255, 0, 0.3); /* Neon green glow */
+}
+
+.login-box h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #d4ff00; /* Neon yellow-green */
+    text-shadow: 0 0 5px #d4ff00, 0 0 10px #d4ff00;
+}
+
+.input-box {
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 40px;
+    background: #333; /* Darker input background */
+    border: 1px solid #d4ff00; /* Neon border */
+    outline: none;
+    border-radius: 5px;
+    color: #d4ff00; /* Neon yellow-green text */
+    font-size: 1rem;
+}
+
+.input-box .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #d4ff00; /* Neon yellow-green */
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #d4ff00; /* Neon yellow-green */
+}
+
+.options a {
+    color: #d4ff00; /* Neon yellow-green */
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #d4ff00; /* Neon yellow-green */
+    border-radius: 5px;
+    color: #000; /* Black text */
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #baff00; /* Slightly lighter neon */
+    transform: scale(1.05);
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    color: #d4ff00; /* Neon yellow-green */
+}
+
+p a {
+    color: #d4ff00;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* General Reset */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000; /* Ensure full black background */
+}
